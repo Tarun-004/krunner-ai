@@ -123,4 +123,4 @@ The model in use is `llama-3.1-8b-instant`. To switch models, change the `GROQ_M
 
 ## License
 
-GPL-2.0-or-later
+GPL-2.0
