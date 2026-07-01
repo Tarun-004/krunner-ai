@@ -1,0 +1,12 @@
+/home/bob/Documents/krunner-groq/build/CMakeFiles/uninstall.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/fetch-translations.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/krunner_groq.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/test.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/edit_cache.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/rebuild_cache.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/list_install_components.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/install.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/install/local.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/install/strip.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/krunner_groq_autogen_timestamp_deps.dir
+/home/bob/Documents/krunner-groq/build/CMakeFiles/krunner_groq_autogen.dir

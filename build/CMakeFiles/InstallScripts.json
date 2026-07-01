@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/bob/Documents/krunner-groq/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

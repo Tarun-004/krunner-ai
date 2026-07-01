@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tarunsai00411@gmail.com",
+                "Name": "Tarun-004"
+            }
+        ],
+        "Description": "Ask natural-language questions and get an instant AI answer powered by Groq",
+        "Icon": "edit-find",
+        "Id": "krunner_groq",
+        "License": "GPL-2.0-or-later",
+        "Name": "Groq AI Answers",
+        "ServiceTypes": [
+            "Plasma/Runner"
+        ]
+    },
+    "X-Plasma-AdvertiseSingleRunnerQueryMode": true,
+    "X-Plasma-Request-Actions-Once": true
+}

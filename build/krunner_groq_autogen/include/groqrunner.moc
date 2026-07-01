@@ -1,0 +1,211 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'groqrunner.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.11.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'groqrunner.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.11.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+struct qt_meta_tag_ZN20krunner_groq_factoryE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto krunner_groq_factory::qt_create_metaobjectdata<qt_meta_tag_ZN20krunner_groq_factoryE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "krunner_groq_factory"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<krunner_groq_factory, qt_meta_tag_ZN20krunner_groq_factoryE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject krunner_groq_factory::staticMetaObject = { {
+    QMetaObject::SuperData::link<KPluginFactory::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN20krunner_groq_factoryE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN20krunner_groq_factoryE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN20krunner_groq_factoryE_t>.metaTypes,
+    nullptr
+} };
+
+void krunner_groq_factory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<krunner_groq_factory *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *krunner_groq_factory::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *krunner_groq_factory::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN20krunner_groq_factoryE_t>.strings))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.kde.KPluginFactory"))
+        return static_cast< KPluginFactory*>(this);
+    return KPluginFactory::qt_metacast(_clname);
+}
+
+int krunner_groq_factory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KPluginFactory::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+#ifdef QT_MOC_EXPORT_PLUGIN_V2
+static constexpr unsigned char qt_pluginMetaDataV2_krunner_groq_factory[] = {
+    0xbf, 
+    // "IID"
+    0x02,  0x76,  'o',  'r',  'g',  '.',  'k',  'd', 
+    'e',  '.',  'K',  'P',  'l',  'u',  'g',  'i', 
+    'n',  'F',  'a',  'c',  't',  'o',  'r',  'y', 
+    // "className"
+    0x03,  0x74,  'k',  'r',  'u',  'n',  'n',  'e', 
+    'r',  '_',  'g',  'r',  'o',  'q',  '_',  'f', 
+    'a',  'c',  't',  'o',  'r',  'y', 
+    // "MetaData"
+    0x04,  0xa3,  0x67,  'K',  'P',  'l',  'u',  'g', 
+    'i',  'n',  0xa7,  0x67,  'A',  'u',  't',  'h', 
+    'o',  'r',  's',  0x81,  0xa2,  0x65,  'E',  'm', 
+    'a',  'i',  'l',  0x6f,  'y',  'o',  'u',  '@', 
+    'e',  'x',  'a',  'm',  'p',  'l',  'e',  '.', 
+    'c',  'o',  'm',  0x64,  'N',  'a',  'm',  'e', 
+    0x69,  'Y',  'o',  'u',  'r',  ' ',  'N',  'a', 
+    'm',  'e',  0x6b,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  0x78,  0x4b, 
+    'A',  's',  'k',  ' ',  'n',  'a',  't',  'u', 
+    'r',  'a',  'l',  '-',  'l',  'a',  'n',  'g', 
+    'u',  'a',  'g',  'e',  ' ',  'q',  'u',  'e', 
+    's',  't',  'i',  'o',  'n',  's',  ' ',  'a', 
+    'n',  'd',  ' ',  'g',  'e',  't',  ' ',  'a', 
+    'n',  ' ',  'i',  'n',  's',  't',  'a',  'n', 
+    't',  ' ',  'A',  'I',  ' ',  'a',  'n',  's', 
+    'w',  'e',  'r',  ' ',  'p',  'o',  'w',  'e', 
+    'r',  'e',  'd',  ' ',  'b',  'y',  ' ',  'G', 
+    'r',  'o',  'q',  0x64,  'I',  'c',  'o',  'n', 
+    0x69,  'e',  'd',  'i',  't',  '-',  'f',  'i', 
+    'n',  'd',  0x62,  'I',  'd',  0x6c,  'k',  'r', 
+    'u',  'n',  'n',  'e',  'r',  '_',  'g',  'r', 
+    'o',  'q',  0x67,  'L',  'i',  'c',  'e',  'n', 
+    's',  'e',  0x70,  'G',  'P',  'L',  '-',  '2', 
+    '.',  '0',  '-',  'o',  'r',  '-',  'l',  'a', 
+    't',  'e',  'r',  0x64,  'N',  'a',  'm',  'e', 
+    0x6f,  'G',  'r',  'o',  'q',  ' ',  'A',  'I', 
+    ' ',  'A',  'n',  's',  'w',  'e',  'r',  's', 
+    0x6c,  'S',  'e',  'r',  'v',  'i',  'c',  'e', 
+    'T',  'y',  'p',  'e',  's',  0x81,  0x6d,  'P', 
+    'l',  'a',  's',  'm',  'a',  '/',  'R',  'u', 
+    'n',  'n',  'e',  'r',  0x78,  0x27,  'X',  '-', 
+    'P',  'l',  'a',  's',  'm',  'a',  '-',  'A', 
+    'd',  'v',  'e',  'r',  't',  'i',  's',  'e', 
+    'S',  'i',  'n',  'g',  'l',  'e',  'R',  'u', 
+    'n',  'n',  'e',  'r',  'Q',  'u',  'e',  'r', 
+    'y',  'M',  'o',  'd',  'e',  0xf5,  0x78,  0x1d, 
+    'X',  '-',  'P',  'l',  'a',  's',  'm',  'a', 
+    '-',  'R',  'e',  'q',  'u',  'e',  's',  't', 
+    '-',  'A',  'c',  't',  'i',  'o',  'n',  's', 
+    '-',  'O',  'n',  'c',  'e',  0xf5, 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN_V2(krunner_groq_factory, krunner_groq_factory, qt_pluginMetaDataV2_krunner_groq_factory)
+#else
+QT_PLUGIN_METADATA_SECTION
+Q_CONSTINIT static constexpr unsigned char qt_pluginMetaData_krunner_groq_factory[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x76,  'o',  'r',  'g',  '.',  'k',  'd', 
+    'e',  '.',  'K',  'P',  'l',  'u',  'g',  'i', 
+    'n',  'F',  'a',  'c',  't',  'o',  'r',  'y', 
+    // "className"
+    0x03,  0x74,  'k',  'r',  'u',  'n',  'n',  'e', 
+    'r',  '_',  'g',  'r',  'o',  'q',  '_',  'f', 
+    'a',  'c',  't',  'o',  'r',  'y', 
+    // "MetaData"
+    0x04,  0xa3,  0x67,  'K',  'P',  'l',  'u',  'g', 
+    'i',  'n',  0xa7,  0x67,  'A',  'u',  't',  'h', 
+    'o',  'r',  's',  0x81,  0xa2,  0x65,  'E',  'm', 
+    'a',  'i',  'l',  0x6f,  'y',  'o',  'u',  '@', 
+    'e',  'x',  'a',  'm',  'p',  'l',  'e',  '.', 
+    'c',  'o',  'm',  0x64,  'N',  'a',  'm',  'e', 
+    0x69,  'Y',  'o',  'u',  'r',  ' ',  'N',  'a', 
+    'm',  'e',  0x6b,  'D',  'e',  's',  'c',  'r', 
+    'i',  'p',  't',  'i',  'o',  'n',  0x78,  0x4b, 
+    'A',  's',  'k',  ' ',  'n',  'a',  't',  'u', 
+    'r',  'a',  'l',  '-',  'l',  'a',  'n',  'g', 
+    'u',  'a',  'g',  'e',  ' ',  'q',  'u',  'e', 
+    's',  't',  'i',  'o',  'n',  's',  ' ',  'a', 
+    'n',  'd',  ' ',  'g',  'e',  't',  ' ',  'a', 
+    'n',  ' ',  'i',  'n',  's',  't',  'a',  'n', 
+    't',  ' ',  'A',  'I',  ' ',  'a',  'n',  's', 
+    'w',  'e',  'r',  ' ',  'p',  'o',  'w',  'e', 
+    'r',  'e',  'd',  ' ',  'b',  'y',  ' ',  'G', 
+    'r',  'o',  'q',  0x64,  'I',  'c',  'o',  'n', 
+    0x69,  'e',  'd',  'i',  't',  '-',  'f',  'i', 
+    'n',  'd',  0x62,  'I',  'd',  0x6c,  'k',  'r', 
+    'u',  'n',  'n',  'e',  'r',  '_',  'g',  'r', 
+    'o',  'q',  0x67,  'L',  'i',  'c',  'e',  'n', 
+    's',  'e',  0x70,  'G',  'P',  'L',  '-',  '2', 
+    '.',  '0',  '-',  'o',  'r',  '-',  'l',  'a', 
+    't',  'e',  'r',  0x64,  'N',  'a',  'm',  'e', 
+    0x6f,  'G',  'r',  'o',  'q',  ' ',  'A',  'I', 
+    ' ',  'A',  'n',  's',  'w',  'e',  'r',  's', 
+    0x6c,  'S',  'e',  'r',  'v',  'i',  'c',  'e', 
+    'T',  'y',  'p',  'e',  's',  0x81,  0x6d,  'P', 
+    'l',  'a',  's',  'm',  'a',  '/',  'R',  'u', 
+    'n',  'n',  'e',  'r',  0x78,  0x27,  'X',  '-', 
+    'P',  'l',  'a',  's',  'm',  'a',  '-',  'A', 
+    'd',  'v',  'e',  'r',  't',  'i',  's',  'e', 
+    'S',  'i',  'n',  'g',  'l',  'e',  'R',  'u', 
+    'n',  'n',  'e',  'r',  'Q',  'u',  'e',  'r', 
+    'y',  'M',  'o',  'd',  'e',  0xf5,  0x78,  0x1d, 
+    'X',  '-',  'P',  'l',  'a',  's',  'm',  'a', 
+    '-',  'R',  'e',  'q',  'u',  'e',  's',  't', 
+    '-',  'A',  'c',  't',  'i',  'o',  'n',  's', 
+    '-',  'O',  'n',  'c',  'e',  0xf5, 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(krunner_groq_factory, krunner_groq_factory)
+#endif  // QT_MOC_EXPORT_PLUGIN_V2
+
+QT_WARNING_POP

@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+8d2a91ac980fa186e3c36a828c76098c CMakeFiles/fetch-translations
+38f8d5fb955c98c84380104a24b9bb36 CMakeFiles/krunner_groq_autogen
+17b7ccf3c519db3bd5cb7da35a462f6f CMakeFiles/uninstall
+80240d855d5e4c7b59c170cf94551948 krunner_groq_autogen/timestamp
+679196868e776c47f119020750727511 releaseme
