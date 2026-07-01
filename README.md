@@ -14,6 +14,7 @@ what is tcp
           protocol used for reliable data transfer over the internet.
           Press Enter to copy
 ```
+![krunner-groq](img.png)
 
 It is deliberately conservative about when it activates. The plugin only fires for queries that look like genuine natural-language questions — multi-word queries that start with a question word (what, why, how, who, explain, define, ...) or end with a question mark. Single-word queries like `firefox`, `downloads`, or `settings` never trigger it, so KRunner's normal file, app, calculator, and other runners are completely unaffected. The plugin also runs at the lowest possible match priority, so even when it does return an answer, it never outranks a real file or application match.
 
