@@ -1,4 +1,4 @@
-# krunner-groq
+# krunner-ai
 
 A native KRunner plugin for KDE Plasma 6 that answers natural-language questions inline using the Groq API. Answers appear directly in KRunner's result list — no extra UI, no popup windows, no browser.
 
